@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    font-family: Concert One;
+    background-image:url(fondo.png);
+    background-size: cover;
+    color: white;
+}
+
+
+
+.btn{
+    background-color: #af936d;
+    color: white;
+}
+
+.carousel {
+   width: 30vh;
+}
+
+.botones-genero{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+.btn:hover {
+    background-color: #70573c;
+}
+
+.overflow-prueba {
+    overflow: visible;
+}
+
+.btn-agregar {
+    text-decoration:none;
+}
+
+
+.input-nombres {
+    background-color: #af936d;
+    border: #af936d;
+    width: auto;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.input-apellidos {
+    background-color: #af936d;
+    border: #af936d;
+    width: auto;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.input-dni{
+    background-color: #af936d;
+    border: #af936d;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.input-hora {
+    background-color: #af936d;
+    border: #af936d;
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.formulario{
+    background-color: #926f4a;
+    width: 350px;
+    font-family: Concert One;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.formulario h5{
+    padding-bottom: 10px;
+}
+
+.carousel {
+    width: 260px;
+}
+.carousel-item img {
+    width: 100%; 
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px; 
+    background-color: #000000; 
+    border-radius: 50%; 
+    color: #FFFFFF; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px; 
+    height: 30px; 
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    content: ''; 
+}
+
+.carousel {
+    position: relative;
+    height: 400px; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.factura{
+    background-color: #926f4a;
+    width: 350px;
+    font-family: Concert One;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+textarea {
+    border: 2px solid  #926f4a; 
+    border-radius: 10px; 
+    background-color:  #af936d;
+    border: 1px;
+    padding: 5px;
+    overflow-y: auto;
+    max-height: 200px; 
+    
+}
+
+.factura button{
+    background-color: #af936d;
+    color: white;
+}
+
+.factura button:hover {
+    background-color: #70573c;
+}
+
+@media (max-width: 920px) {
+    
+    
+  }

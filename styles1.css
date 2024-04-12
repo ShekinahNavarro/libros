@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    font-family: Concert One;
+    background-image:url(fondo.png);
+    background-size: cover;
+    color: white;
+}
+
+.formulario{
+    background-color: #926f4a;
+    width: 440px;
+    font-family: Concert One;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario h5{
+    padding-bottom: 10px;
+}
+
+span {
+    color: #000;
+}
